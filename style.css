@@ -1,0 +1,207 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: aqua;
+	background-repeat: round;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+header, footer{
+		background-color: rgba(65,105,225);
+		padding: 1%;
+        position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 1.5cm;
+		line-height: 1.5;
+
+	}
+
+	.menu-opcoes{
+		text-align: center;
+	}
+
+	.fixo{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+	.ajustes{
+		line-height: 1;
+		text-align: center;
+	}
+
+	.ajustes li:hover{
+		background-color: #708090;
+	}
+
+	.container{
+		margin-top: 30%;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+    /*tela menor que 599px */
+    @media screen and (max-width: 599px){
+    	.container{
+    		margin-top: 65%;
+    	}
+        }
+
+        /*tela maior que 600px */
+        @media screen and (max-width: 600px){
+    	.container{
+    		margin-top: 40%;
+    	}
+        }
+
+        @media only screen and (min-width: 768px){
+        	.container{
+        		margin-top: 20%;}
+        header{
+        	background-color: rgba(65,105,225); 
+            flex-direction: row;
+            position: relative;
+            height: 100px;
+          }
+         
+         .menu-opcoes{
+
+         	position: absolute;
+         	right: 5%;
+         	top: 45%;
+         }
+
+      }
+
+      .menu-opcoes ul li{
+
+      	display: inline;
+      	margin-left: 10px;
+      }
+
+      .imglogo{
+
+      	position: absolute;
+      	top: 10px;
+      	left: 5%;
+      }
+
+
+	h1{
+		font-size: 2cm;
+	}
+
+h2{
+	font-size: 1.5cm;
+}
+
+
+.titulos{
+	text-align: center;
+color: #fff
+font-weight: bolder;
+margin-top: 2%
+margin-bottom:2%;
+}
+
+}
+
+p{
+
+color: #fff
+font-weight: bolder;
+font-size: 20px;
+text-align: justify;
+
+}
+
+.listatexto{
+
+text-decoration: underline;
+color: #fff;
+font-weight: bolder;
+margin-top: 1%
+margin-bottom:1%;
+font-size: 1cm;
+
+}
+
+figure{
+
+text-align: center;
+
+}
+
+.imgtexto{
+	border: 5px dashed #fff;
+	width: 70%;
+}
+
+	}
+
+
+	a:link {
+		color: #fff;
+		background-color: transparent;
+		text-decoration: none;
+
+	}
+
+	a:visited{
+		color: pink;
+		background-color:transparent;
+		text-decoration:none;
+
+	}
+
+	a:hover{
+		color: blue;
+		background-color: transparent;
+		text-decoration: underline; 
+	}
+
+    a:active {
+    	color: yellow;
+    	background-color: transparent;
+    	text-decoration: underline; 
+    }
+
+    table{
+    	border-collapse: collapse;
+    	width: 100%;
+    	color:#fff;
+    }
+
+    td,th{
+    	border: 3px solid #fff;
+    	padding: 10px;
+    }
+
+    tr:nth-child(even){
+    	background-color: #dddddd; 
+    }
+
+.centro{
+	text-align: center;
+}
+
+.video{
+	text-align: center;
+}
+
+/* quando a tela for maior que 600px */
+@media screen and (min-width:600px) {
+
+}
